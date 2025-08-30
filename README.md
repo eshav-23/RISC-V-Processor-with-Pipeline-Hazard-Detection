@@ -14,7 +14,7 @@ The design improves **instruction throughput** and **parallelism** while handlin
   - **MEM**: Memory Access  
   - **WB**: Write Back
 
-    ## Pipeline Registers
+## Pipeline Registers
 
   - The processor uses dedicated **pipeline registers** between stages to hold instruction and data values as they move forward.  
   - These registers maintain **stage isolation**, ensuring that multiple instructions can execute in parallel without interfering with each other.
@@ -40,7 +40,6 @@ The design improves **instruction throughput** and **parallelism** while handlin
 - **Performance Enhancements**
   - Increased **parallel instruction execution**.  
   - Reduced pipeline delays through selective forwarding.
-  - 
   - Balanced trade-offs between hardware complexity and performance gains.  
 
 ---
